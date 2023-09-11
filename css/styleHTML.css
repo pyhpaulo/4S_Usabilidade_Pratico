@@ -1,0 +1,37 @@
+/* Este é um comentário */
+
+body {
+    font-family: sans-serif;
+    
+}
+
+/* Estilo aplicado nos elementos dentro de div-paragrafos */
+#div-paragrafos {
+    color: aliceblue;
+    background-color: rgb(91, 93, 145
+    );
+}
+
+/* Aplicando estilo para a classe .longo*/
+.longo {
+    background-color: brown;
+}
+
+/* Aplicando estilo por ID */
+#p1 {
+    background-color:blue;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+/* Aplicando detalhes nos paragrafos*/
+
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* Aplicando detalhes nos titulos*/
+
+h1 {
+    background-color: blueviolet;
+}
