@@ -1,3 +1,4 @@
+/* Definição da estilização do body */
 body{
     font-family: Helvetica;
     text-align: center;
@@ -7,6 +8,7 @@ body{
     margin: 0;
 
 }
+/*Estilização da categoria NAV Mini-Projeto */
 nav {
     display: flex;
     justify-content: space-between;
@@ -14,39 +16,39 @@ nav {
     align-items: center;
     border-bottom: 1px solid#666;
 }
-
+/* Estilização da categoria NAV-UL com o espaçamento entre as opções HTML, CSS e JS */
 nav ul {
     display: flex;
     list-style: none;
     
 
 }
-
+/*Determinarção da margem da categoria HTML*/
 ul li{
     margin-right: 12px;
 
 
 }
-
+/*Determinarção da margem da categoria CSS*/
 ul li a {
     color: white;
     text-decoration: none;
     transition: 0.5s;
 }
-
+/*Determinarção da margem da categoria JavaScript*/
 ul li a:hover{
     color: rgb(15,89,150);
 }
-
+/*Definição de tamanho de fonte para o H1 */
 h1{
     font-size: 32px;
 }
-
+/* Definição de tamanho e borda a imagem inserida no index.html */
 img{
     border: 3px solid rgb(15, 194, 218);
     height: 300px;
 }
-
+/* Adição de tamanho margem e borda ao footer nome no rodapé da pagina */
 footer {
     padding: 20px;
     border-top: 1px solid #666;
