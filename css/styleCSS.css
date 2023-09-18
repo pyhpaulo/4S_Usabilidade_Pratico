@@ -1,0 +1,65 @@
+body{
+    padding: 20px;
+}
+
+/* Estilo para a tag parágrafo */
+
+p{
+    color: darkmagenta;
+    font-size: 30px;
+}
+
+/* Estilo para a classe de paragrados numerods */
+.p-numerados {
+    font-family: 'Courier New', Courier, monospace;
+    color: blueviolet;
+    background-color: yellowgreen;
+}
+
+#p2 {
+    background-color: black;
+    color: red;
+}
+
+h2 {
+    border-bottom: 1px solid red;
+}
+
+/* Utilizamos * para aplicar Todos os elemntos da página */
+* {
+    font-family: Arial;
+}
+
+.decoration {
+    text-decoration: none;
+    transition: 0.55;
+}
+
+a:visited{
+    color: rgb(241, 13, 13);
+
+}
+
+a:hover {
+    background-color: yellow;
+}
+
+.serifada {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sem-serifa{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.monoespacada {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.caixa {
+    width: 150px;
+    height: 100px;
+    border: 10px solid blue;
+    padding: 100px;
+    margin: 10px;
+}
