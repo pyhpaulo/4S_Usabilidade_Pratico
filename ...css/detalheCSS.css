@@ -1,0 +1,169 @@
+body{
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+    
+    
+}
+
+/* Estilização foto */
+img.fotoautor{
+    
+    height: 300px; /* Altura da imagem */
+    align-items: center;
+}
+
+img.fotoautor:hover{
+    transform: scale(1.05);
+    transition: .10s;
+}
+
+
+
+/*  Estilização dos titulos H3*/
+h3.nome {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+h3.nome {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 0px 10px 2px 0;
+    font-size: 15pt;
+    position: relative;
+}
+
+h3.nome::after{
+    content: " ";
+    width: 0%;
+    height: 2px;
+    background-color: rgb(216, 15, 15);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+h3.nome:hover::after{
+    width: 6%;
+}
+
+h3.experiencia{
+
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+       
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+h3.experiencia {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 0px 10px 2px 0;
+    font-size: 15pt;
+    position: relative;
+}
+
+h3.experiencia::after{
+    content: " ";
+    width: 0%;
+    height: 2px;
+    background-color: rgb(216, 15, 15);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+h3.experiencia:hover::after{
+    width: 6%;
+}
+
+
+h3.hobbies{
+    background-color: #8BC6EC;
+background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h3.hobbies{
+    background-color: rgb(36, 180, 247);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h3.hobbies {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 0px 10px 2px 0;
+    font-size: 15pt;
+    position: relative;
+}
+
+h3.hobbies::after{
+    content: " ";
+    width: 0%;
+    height: 2px;
+    background-color: rgb(216, 15, 15);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+h3.hobbies:hover::after{
+    width: 6%;
+}
+
+
+
+h3.Contatos{
+background-color: #8BC6EC;
+background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+
+}
+
+
+h3.Contatos {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 0px 10px 2px 0;
+    font-size: 15pt;
+    position: relative;
+}
+
+h3.Contatos::after{
+    content: " ";
+    width: 0%;
+    height: 2px;
+    background-color: rgb(216, 15, 15);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+h3.Contatos:hover::after{
+    width: 6%;
+}
+
+
+
+/*  Estilização dos paragrafos*/
+
+
+/* Estilização de contatos */
+
+a.linkedin{
+
+}
+
+a.gmail{
+
+}
+
+a.whatsapp{
+
+}
+

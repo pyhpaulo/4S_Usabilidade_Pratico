@@ -1,0 +1,131 @@
+body {
+    color: #000;
+    background-color: #e7dede;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Edição do title*/
+h1.title{
+    color: red;
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* Estilização dos parágrafos com classe cidades e oracle */
+
+p.cidades,
+p.oracle {
+    color: rgb(0, 0, 0); /* Cor do texto */
+    padding: 15px; /* Espaçamento interno */
+    margin: 0; /* Remova a margem padrão */
+    background-color: #dad1d133;
+    font-family:  'Times New Roman', serif;
+    
+    
+    
+}
+
+h2.h2cidades{
+    text-align: center;
+
+}
+
+h2.h2oracle{
+    text-align: center;
+}
+
+/* Estilização das imagens com classe smart e database */
+
+img.smart,
+img.database {
+    border: 1px solid rgba(54, 53, 53, 0.226); /* Estilo de borda */
+    height: 300px; /* Altura da imagem */
+    vertical-align: middle; /* Alinhe verticalmente as imagens no meio */
+    align-items: center;
+    
+}
+
+img.smart:hover{
+    transform: scale(1.05);
+    transition: .6s;
+}
+
+img.database:hover{
+    transform: scale(1.05);
+    transition: .6s;
+}
+
+/* Estilização adicional para alinhar o texto à direita */
+
+p.cidades {
+    float: right; /* Alinhe o texto à direita */
+    clear: both; /* Limpe as flutuações para evitar sobreposições */
+
+
+}
+
+
+/* Estilização da navegação (nav) */
+
+nav {
+    color: #000;
+    text-decoration: none;
+    padding: 2px;
+    font-size: 15pt;
+    position: relative;
+    background-color: rgb(245, 45, 45);
+
+}
+
+nav::after{
+    content: " ";
+    width: 0%;
+    height: 2px;
+    background-color: #000;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 1.5s ease-in-out;
+}
+
+nav:hover::after{
+    width: 100%;
+}
+
+/* Estilização do rodapé (footer) */
+
+footer {
+    padding: 10px;
+    border-top: 1px solid #666;
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Estilização do botão SAIBA-MAIS*/
+
+a.saiba {
+    color: red;
+    text-decoration: none;
+    padding: 0px 10px 2px 0;
+    font-size: 12pt;
+    position: relative;
+}
+
+a.saiba::after{
+    content: " ";
+    width: 0%;
+    height: 2px;
+    background-color: rgb(216, 15, 15);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+a.saiba:hover::after{
+    width: 100%;
+}
+
