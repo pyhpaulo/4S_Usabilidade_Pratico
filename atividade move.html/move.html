@@ -1,0 +1,74 @@
+<html>
+<head>
+    <title>Move</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta charset="utf-8">
+    <style>
+        body {
+            margin: 0;
+        }
+    </style>
+</head>
+<body onkeydown="keyPress(event)">
+    <!-- Caixa que será movida -->
+    <div id="caixa" style="position: absolute; display: block; width: 100px; height: 100px; background-color: blue"></div>
+
+    <script language="javascript">
+        var caixa = document.getElementById('caixa');
+
+        // Posição inicial da caixa
+        var top_position = 0;
+        var left_position = 0;
+
+        // Quantidade de pixels a ser movida a cada passo
+        var step = 10;
+
+        // Função chamada quando uma tecla é pressionada
+        function keyPress(event) {
+            const key = event.key;
+
+            // Verifica a tecla pressionada e chama a função correspondente
+            if (key === 'ArrowUp' || key === 'w') up();
+            if (key === 'ArrowDown' || key === 's') down();
+            if (key === 'ArrowLeft' || key === 'a') left();
+            if (key === 'ArrowRight' || key === 'd') right();
+        }
+
+        // Move a caixa para baixo
+        function down() {
+            // Verifica se a nova posição não ultrapassa os limites inferiores da janela
+            if (top_position + step < window.innerHeight - caixa.clientHeight) {
+                top_position += step;
+                caixa.style.top = `${top_position}px`;
+            }
+        }
+
+        // Move a caixa para cima
+        function up() {
+            // Verifica se a nova posição não ultrapassa os limites superiores da janela
+            if (top_position - step >= 0) {
+                top_position -= step;
+                caixa.style.top = `${top_position}px`;
+            }
+        }
+
+        // Move a caixa para a esquerda
+        function left() {
+            // Verifica se a nova posição não ultrapassa os limites esquerdos da janela
+            if (left_position - step >= 0) {
+                left_position -= step;
+                caixa.style.left = `${left_position}px`;
+            }
+        }
+
+        // Move a caixa para a direita
+        function right() {
+            // Verifica se a nova posição não ultrapassa os limites direitos da janela
+            if (left_position + step < window.innerWidth - caixa.clientWidth) {
+                left_position += step;
+                caixa.style.left = `${left_position}px`;
+            }
+        }
+    </script>
+</body>
+</html>
